@@ -133,7 +133,7 @@ footer {
     filter: saturate(180%) blur(0px) brightness(120%) contrast(200%);
   }
 
-@media only screen and (max-width:632px){
+@media only screen and (max-device-width:632px){
   figure {
     width: calc(100vw - 2em);
   }
@@ -150,7 +150,7 @@ ul {
 }
 
 
-@media only screen and (min-width:632px){
+@media only screen and (min-device-width:632px){
   ul:hover {
   transform: scale(1.2);
   transition: 1s ease;
